@@ -24,7 +24,7 @@
     database: admin
     name: "{{ item.name }}"
     password: "{{ item.password }}"
-    update_password: "{{ mongodb_user_update_password }}"
+#    update_password: "{{ mongodb_user_update_password }}"
     roles: "{{ item.roles }}"
     login_port: "{{ mongodb_net_port }}"
   with_items:
@@ -39,7 +39,7 @@
     database: admin
     name: "{{ item.name }}"
     password: "{{ item.password }}"
-    update_password: "{{ mongodb_user_update_password }}"
+#    update_password: "{{ mongodb_user_update_password }}"
     roles: "{{ item.roles }}"
     login_port: "{{ mongodb_net_port }}"
   with_items:
@@ -54,7 +54,7 @@
     database: admin
     name: "{{ item.name }}"
     password: "{{ item.password }}"
-    update_password: "{{ mongodb_user_update_password }}"
+#    update_password: "{{ mongodb_user_update_password }}"
     roles: "{{ item.roles }}"
     login_port: "{{ mongodb_net_port }}"
   with_items:
